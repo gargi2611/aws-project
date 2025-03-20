@@ -6,15 +6,7 @@ This guide provides step-by-step AWS CLI commands to implement the image resizin
 
 ## Step 1: Configure AWS CLI
 
-First, ensure your AWS CLI is configured with your credentials:
-```bash
-aws configure
-# Enter your:
-# - AWS Access Key ID
-# - AWS Secret Access Key
-# - Default region (e.g., us-east-1)
-# - Default output format (json)
-```
+First, ensure your AWS CLI is configured with your credentials
 
 ## Step 2: Create S3 Buckets
 
@@ -337,8 +329,3 @@ aws iam delete-policy --policy-arn arn:aws:iam::YOUR_ACCOUNT_ID:policy/image-res
 
 1. Replace `YOUR_ACCOUNT_ID` with your actual AWS account ID in all commands
 2. Replace `us-east-1` with your desired region if different
-3. Ensure you have sufficient permissions to create these resources
-4. Monitor AWS costs as this setup will incur charges
-5. Consider implementing additional security measures like encryption and VPC endpoints
-
-Would you like me to explain any specific step in more detail or provide additional configuration options?
